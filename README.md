@@ -1,11 +1,11 @@
-# capacitor-printer
+# capacitorjs-printer
 
-A capacitor plugin to print html document from mobile app. It's currently working for android devices only. 
+A capacitorjs plugin to print html document from mobile app. It's currently working for android devices only. 
 
 ## Install
 
 ```bash
-npm install capacitor-printer
+npm install capacitorjs-printer
 npx cap sync
 ```
 

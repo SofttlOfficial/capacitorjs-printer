@@ -1,7 +1,7 @@
 {
-  "name": "capacitor-printer",
-  "version": "1.0.7",
-  "description": "A capacitor plugin to print html document",
+  "name": "capacitorjs-printer",
+  "version": "1.0.8",
+  "description": "A capacitorjs plugin to print html document",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/softtl-com/capacitor-printer.git"
+    "url": "git+https://github.com/softtl-com/capacitorjs-printer.git"
   },
   "bugs": {
-    "url": "https://github.com/softtl-com/capacitor-printer/issues"
+    "url": "https://github.com/softtl-com/capacitorjs-printer/issues"
   },
   "keywords": [
     "capacitor",
@@ -76,5 +76,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "glob": "^10.4.2"
   }
 }
