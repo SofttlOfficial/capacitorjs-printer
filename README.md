@@ -20,7 +20,7 @@ npx cap sync
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### printHtml(...)
 
 ```typescript
 printHtml(options: { value: string; }) => Promise<{ value: string; }>
