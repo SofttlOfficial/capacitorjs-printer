@@ -1,6 +1,6 @@
 # capacitor-printer
 
-A capacitor plugin to print html document
+A capacitor plugin to print html document from mobile app. It's currently working for android devices only. 
 
 ## Install
 
@@ -13,7 +13,7 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`printHtml(...)`](#echo)
 
 </docgen-index>
 
@@ -23,7 +23,7 @@ npx cap sync
 ### echo(...)
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+printHtml(options: { value: string; }) => Promise<{ value: string; }>
 ```
 
 | Param         | Type                            |
