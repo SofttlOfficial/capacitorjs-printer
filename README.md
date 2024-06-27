@@ -1,6 +1,6 @@
 # capacitorjs-printer
 
-A capacitorjs plugin to print html document from mobile app. It's currently working for android devices only. 
+A capacitorjs plugin to print html document from mobile phone.
 
 ## Install
 
@@ -13,7 +13,7 @@ npx cap sync
 
 <docgen-index>
 
-* [`printHtml(...)`](#echo)
+* [`printHtml(...)`](#printhtml)
 
 </docgen-index>
 

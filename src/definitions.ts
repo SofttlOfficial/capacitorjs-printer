@@ -1,3 +1,3 @@
-export interface CapacitorPrinterPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+export interface CapacitorjsPrinterPlugin {
+  printHtml(options: { value: string }): Promise<{ value: string }>;
 }

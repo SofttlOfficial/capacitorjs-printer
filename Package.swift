@@ -2,27 +2,27 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapacitorPrinter",
+    name: "CapacitorjsPrinter",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "CapacitorPrinter",
-            targets: ["CapacitorPrinterPlugin"])
+            name: "CapacitorjsPrinter",
+            targets: ["CapacitorjsPrinterPlugin"])
     ],
     dependencies: [
         .package(url: "https://github.com/ionic-team/capacitor-swift-pm.git", branch: "main")
     ],
     targets: [
         .target(
-            name: "CapacitorPrinterPlugin",
+            name: "CapacitorjsPrinterPlugin",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm"),
                 .product(name: "Cordova", package: "capacitor-swift-pm")
             ],
-            path: "ios/Sources/CapacitorPrinterPlugin"),
+            path: "ios/Sources/CapacitorjsPrinterPlugin"),
         .testTarget(
-            name: "CapacitorPrinterPluginTests",
-            dependencies: ["CapacitorPrinterPlugin"],
-            path: "ios/Tests/CapacitorPrinterPluginTests")
+            name: "CapacitorjsPrinterPluginTests",
+            dependencies: ["CapacitorjsPrinterPlugin"],
+            path: "ios/Tests/CapacitorjsPrinterPluginTests")
     ]
 )
