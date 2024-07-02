@@ -1,6 +1,7 @@
 # capacitorjs-printer
 
 A capacitorjs plugin to print html document from mobile phone.
+
 ![alt text](https://github.com/SofttlOfficial/capacitorjs-printer/blob/main/images/ScreenRecording.gif?raw=true)
 
 ## Install
